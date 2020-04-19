@@ -3,8 +3,8 @@
   box-sizing: border-box;
   font-family: Comic Sans, Comic Sans MS, cursive;
   color: black;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -14,33 +14,33 @@ h1 {
   text-align: center;
 }
 
-h2{
+h2 {
   position: relative;
-  left:70%;
+  left: 70%;
   width: 30%;
   height: 10%;
-  font-size:  125%;
+  font-size: 125%;
   text-align: center;
   border: 2px solid black;
 }
 
-p{
-  padding: 15px
+p {
+  padding: 15px;
 }
 
-section{
+section {
   background-color: lightgray;
 }
 
-section:nth-child(1) h2{
+section:nth-child(1) h2 {
   background-color: violet;
 }
 
-section:nth-child(2) h2{
+section:nth-child(2) h2 {
   background-color: tomato;
 }
 
-section:nth-child(3) h2{
+section:nth-child(3) h2 {
   background-color: orange;
 }
 
@@ -51,37 +51,36 @@ section:nth-child(3) h2{
 
 /********** Dekstop view **********/
 @media (min-width: 992px) {
-  .col-lg-4{
+  .col-lg-4 {
     float: left;
     margin: 1.5%;
     width: 30%;
     border: 2px solid black;
-    }
   }
- 
+}
 
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  .col-md-6 , .col-md-12{
-     float: left;
+  .col-md-6,
+  .col-md-12 {
+    float: left;
     border: 2px solid black;
   }
-  .col-md-6{
+  .col-md-6 {
     width: 46%;
     margin: 2%;
   }
-  .col-md-12{
-     width: 96%;
+  .col-md-12 {
+    width: 96%;
     margin: 2%;
   }
-  
 }
 
 /********** Mobile view **********/
 @media (max-width: 767px) {
-  .col-sm-12{
+  .col-sm-12 {
     float: left;
-    width: 80%
+    width: 80%;
     margin: 10%;
     margin-left: 2%;
     margin-right: 2%;
