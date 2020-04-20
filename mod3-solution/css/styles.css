@@ -5,9 +5,12 @@ body{
 }
 
 /*************HEADER*********************/
+.navbar{
+	background-color: lightgray;
+}
 h1.navbar-brand{
 	font-size: 2em;
-	background-color: lightgray;
+
 }
 .navbar-header button.navbar-toggle {
 	margin-top: 25px;
