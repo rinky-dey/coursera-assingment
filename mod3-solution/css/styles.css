@@ -10,6 +10,7 @@ body{
 }
 h1.navbar-brand{
 	font-size: 2em;
+	color: black;
 
 }
 .navbar-header button.navbar-toggle {
